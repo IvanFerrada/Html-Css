@@ -1,0 +1,85 @@
+#boton{
+    display: block;
+    width: 120px;
+    
+    border: 1px greenyellow solid;
+    padding: 10px;
+    margin: 40px;
+    color: black;
+    background-color: greenyellow;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    transition: border 500ms,background 3s ;
+
+}
+
+#boton:hover{
+    background-color: grey;
+    color:white;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+
+
+#caja{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name: mover;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+ /* ANIMACIONES @KEYFRAMES!!*/
+
+@keyframes mover{
+    fro{
+    margin-right: 0px;
+    }
+    to{
+    margin-left: 1600px;
+    }
+}
+
+
+
+#caja2{
+    
+ 
+    top: 600px;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation-name:mover2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+    
+}
+
+@keyframes mover2{
+    0%{
+        margin-left:1600px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-right:0px;
+        transform:rotate(360deg);
+        border-radius: 999px;
+
+    }
+    100%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+
+    }
+}

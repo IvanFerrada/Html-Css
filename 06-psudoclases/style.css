@@ -1,0 +1,56 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li{
+    color: blue;
+}
+
+ul li:first-child{
+    color: yellowgreen;
+}
+
+ul li:nth-child(2){
+    color: rgb(12, 83, 42);
+}
+
+ul li:last-child{
+    color: rgb(255, 11, 32);
+}
+
+#enlaze{
+    font-size: 30px;
+    color: black;
+}
+
+#enlaze:link{
+    color: red;
+}
+
+#enlaze:visited{
+    color: blue;
+}
+
+
+#enlaze:hover{
+    color: coral;
+}
+
+
+#enlaze:active{
+    color: green;
+    font-size: 20px;
+}
+
+input[type="text"]{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    font-family: sans-serif;
+}
+
+input[type="text"]:focus{
+    border: 4px red dashed;
+    
+}
